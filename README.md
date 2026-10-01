@@ -23,7 +23,7 @@ Our platform re-architects Blogger into a **Serverpod-backed backend and Flutter
 
 ## 📚 Complete Specification Index
 
-The complete platform specifications are organized into 7 modular, in-depth documentation suites inside the [`docs/`](./docs) directory:
+The complete platform specifications are organized into 9 modular, in-depth documentation suites inside the [`docs/`](./docs) directory:
 
 | Document | Title | Description |
 | :--- | :--- | :--- |
@@ -34,6 +34,8 @@ The complete platform specifications are organized into 7 modular, in-depth docu
 | **[`05_SERVERPOD_BACKEND_SPECIFICATION.md`](./docs/05_SERVERPOD_BACKEND_SPECIFICATION.md)** | **Serverpod Backend & Database Specs** | Complete `.spy.yaml` data models, database schema, Blogger REST API v3 compatibility endpoints (`BloggerV3Endpoint`), and custom protocol endpoints. |
 | **[`06_FLUTTER_STUDIO_AND_FRONTEND_SPEC.md`](./docs/06_FLUTTER_STUDIO_AND_FRONTEND_SPEC.md)** | **Flutter Studio & Kaisel Router Spec** | 15-tab Flutter Studio UI, universal JSON-LD renderer, and full `KaiselConfigCodec<AppRoute>` deep-link routing spec (including `gl` language parameter). |
 | **[`07_JSON_LD_VISUAL_EDITOR_AND_ENGINE_SPEC.md`](./docs/07_JSON_LD_VISUAL_EDITOR_AND_ENGINE_SPEC.md)** | **Visual Editor & Ingestion Pipeline** | No-code visual schema builder (`JSON-LD-Visual-Editor`), feed extraction pipeline (`SchemaExtractor`), Rich Results validation, and URL scraping. |
+| **[`08_UI_RENDERERS_AND_PRESENTATION_SPEC.md`](./docs/08_UI_RENDERERS_AND_PRESENTATION_SPEC.md)** | **UI Renderers & Presentation Engine** | ProductRenderer, CartRenderer, GeoVerificationRenderer, Google Maps drag-and-drop pinpoint, distance telemetry, and Google Pay UI buttons. |
+| **[`09_ENDPOINTS_AND_BUSINESS_LOGIC_SPEC.md`](./docs/09_ENDPOINTS_AND_BUSINESS_LOGIC_SPEC.md)** | **Serverpod Endpoints & Execution Logic** | BloggerEndpoint RPC methods, BloggerV3Endpoint REST compatibility, Order verify & payment execution, and push notifications. |
 
 ---
 
